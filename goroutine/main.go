@@ -20,7 +20,7 @@ func main() {
 	log.Print("start")
 
 	for i := 0; i < sleepSecondTime; i ++ {
-        go sleep(i)  // ゴルーチン使用
+		go sleep(i)  // ゴルーチン使用
 	}
 
 	time.Sleep(4 * time.Second)
